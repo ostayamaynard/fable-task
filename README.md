@@ -1,12 +1,62 @@
-# React + Vite
+# 🛏️ Fable Developer Task – Case Study Animation Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my submission for the **Fable Web Developer Task**, focused on building a seamless, animated transition between a project grid and a detailed case study page. The goal was to reflect Fable’s provided designs with fidelity, while enhancing the experience through smooth transitions and thoughtful interactions.
 
-Currently, two official plugins are available:
+## 🎯 Task Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Implement the **provided Figma designs**
+- Prioritise **smooth transitions** between project → case study
+- Focus on **animation, responsiveness**, and **pixel-accuracy**
+- Embed **case study video** (Vimeo)
+- Apply **creative improvements** where possible
 
-## Expanding the ESLint configuration
+## 🔗 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 [View Live Demo](https://your-live-link.vercel.app)
+
+## 📸 Screenshots
+
+| Project Grid → Case Study | Mobile Layout |
+|---------------------------|----------------|
+| ![Demo](./screenshots/desktop.png) | ![Mobile](./screenshots/mobile.png) |
+
+---
+
+## 🧱 Tech Stack
+
+- ⚛️ **React.js**
+- 🎨 **Tailwind CSS** (for layout and responsiveness)
+- 🎞️ **Framer Motion** (optional animation library – not required here)
+- 🎥 **Vimeo Embed** for case study video
+- 🌐 **Deployed via Vercel** (or Netlify)
+
+---
+
+## 🧠 Animation & UX Approach
+
+- **Page Transition:** Currently handled with route-based component mounts. To extend, I would integrate `Framer Motion` for shared layout transitions.
+- **Hero Image & Sections:** Smooth fades and scaling; responsive full-width layout using `object-cover`.
+- **Video Embed:** Responsive Vimeo iframe in a `aspect-video` container.
+- **Micro-interactions:** Hover effects on project thumbnails and buttons.
+- **Back/Next Navigation:** Styled buttons with hover state and large tappable area.
+
+---
+
+## 📱 Responsiveness
+
+- Used **Tailwind’s responsive utility classes** (`md:grid-cols-2`, `px-6`, etc.)
+- Ensured images and videos scale using `w-full`, `object-cover`, and `aspect-video`
+- On small screens:
+  - Project details stack vertically
+  - Grid collapses to 1 column
+  - Typography and padding shrink gracefully
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/yourusername/fable-case-study.git
+cd fable-case-study
+npm install
+npm run dev
