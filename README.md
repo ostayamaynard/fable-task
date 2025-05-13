@@ -56,7 +56,7 @@ This is my submission for the **Fable Web Developer Task**, focused on building 
 ## 🚀 How to Run Locally
 
 ```bash
-git clone https://github.com/yourusername/fable-case-study.git
+git clone [https://github.com/yourusername/fable-case-study.git](https://github.com/ostayamaynard/fable-task.git)
 cd fable-case-study
 npm install
 npm run dev
