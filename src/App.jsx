@@ -1,0 +1,19 @@
+// App.jsx
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import CaseStudy from './pages/CaseStudy';
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+       <Route path="/case-study/:slug" element={<CaseStudy />} />
+      </Routes>
+    </Router>
+  );
+}
+
+// ✅ This line must exist:
+export default App;
