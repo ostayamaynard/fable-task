@@ -39,7 +39,7 @@ const CaseStudy = () => {
         <div className="w-[1440px] mx-auto grid grid-cols-4 gap-[40px] px-[50.72px] text-white [&>*]:text-[#003366]">
             <div>
             </div>
-            <div className="text-left text-[#003366]">
+            <div className="text-left text-[#003366] text-[20px] md:text-[30px]">
                 "Come Fourth... To the Place That Pays Up to 4th Place"
                 <br />
                 <br />
@@ -51,7 +51,7 @@ const CaseStudy = () => {
             </div>
             <div className="text-left text-[#003366]">
             </div>
-            <div className="text-left text-[#003366] max-w-[445px]">
+            <div className="text-left text-[#003366] max-w-[445px] text-[18px] md:text-[25px]">
                 <b>Year</b>
                 <br />
                 2025

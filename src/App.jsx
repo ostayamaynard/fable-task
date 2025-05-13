@@ -14,6 +14,4 @@ function App() {
     </Router>
   );
 }
-
-// ✅ This line must exist:
 export default App;

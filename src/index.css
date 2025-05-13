@@ -77,4 +77,8 @@ html, body {
   background-color: #012a4a;
   color: #ffffff;
 }
+/* Ensure footer text is white */
+footer{
+  color: white !important;
+}
 
